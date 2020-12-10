@@ -1,5 +1,5 @@
 #parentLayout {
-    -fx-background-image: url("background.jpg");
+    -fx-background-image: url("Background.jpg");
     -fx-background-size: 800 600;
     -fx-font-weight: bold;
 }
