@@ -58,7 +58,7 @@ public class Main extends Application {
 
         parentLayout.getChildren().add(toonSelectPane); // Add on our new toonSelectPane FlowPane to our parentLayout
 
-        Characters AvailableCharacters = new Characters(); //Creates an object of our Characters class
+        Characters AvailableCharacters = new Characters(); // Creates an object of our Characters class
 
         // Creates our 10 Checkbox Objects for use in GUI Character Selection
 
@@ -207,7 +207,7 @@ public class Main extends Application {
             scene.getStylesheets().add(getClass().getResource("style.css").toExternalForm());
         } catch (NullPointerException e) { // If we get a Null Pointer Exception from missing file inform the User
             e.printStackTrace(); // Print out the Stack Trace of the error
-            System.out.println("src/sample/style.css cannot be located!\nProgram is running without CSS Styling.");
+            System.out.println("src/guilab/style.css cannot be located!\nProgram is running without CSS Styling.");
         }
 
         stage.setTitle("Æ Rasketball 2737"); //Sets our window's title
