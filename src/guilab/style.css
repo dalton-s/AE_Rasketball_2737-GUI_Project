@@ -1,0 +1,62 @@
+#parentLayout {
+    -fx-background-image: url("background.jpg");
+    -fx-background-size: 800 600;
+    -fx-font-weight: bold;
+}
+
+.box {
+    -fx-background-color: maroon;
+}
+
+.button {
+    -fx-background-color: #ffb733;
+    -fx-background-radius: 4px;
+    -fx-font-size: 18px;
+    -fx-padding: 3px 30px 3px 30px;
+    -fx-text-alignment: center;
+}
+
+.button:hover {
+    -fx-background-color: #ffae1a;
+}
+
+.check-box {
+    -fx-background-color: beige;
+    -fx-background-radius: 16;
+    -fx-font-size: 18px;
+    -fx-opacity: 0.85;
+    -fx-padding: 7px 7px 7px 7px;
+}
+
+.check-box:hover {
+    -fx-background-color: yellow;
+}
+
+.check-box:selected .box {
+    -fx-background-color: green;
+}
+
+.check-box:selected .mark {
+    -fx-background-color: yellow;
+}
+
+.label {
+    -fx-alignment: center;
+    -fx-font-family: "Comic Sans MS";
+    -fx-font-size: 24;
+    -fx-font-style: italic;
+    -fx-font-weight: bold;
+    -fx-text-fill: #d00404;
+    -fx-opacity: 0.75;
+}
+
+.text-area {
+    -fx-background-color: rgba(0, 0, 0, 0.0);
+    -fx-font-size: 20;
+    -fx-opacity: 0.85;
+    -fx-padding:0 300px 0 300px;
+}
+
+.text-area .text {
+    -fx-text-alignment: center;
+}
